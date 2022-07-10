@@ -1,5 +1,5 @@
-// import bevatsal1122 from "./hello.js"
-const bevatsal1122 = require("./hello.js")
+import bevatsal1122 from "./hello.js"
+// const bevatsal1122 = require("./hello.js")
 console.log("\nHello Vatsal\n", bevatsal1122);
 
 
