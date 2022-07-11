@@ -3,7 +3,7 @@ import bevatsal1122 from "./hello.js"
 console.log("\nHello Vatsal\n", bevatsal1122);
 
 
-// To use ED6 Sytanx, Javascript File type should be Module.
+// To use ES6 Sytanx, Javascript File Type should be Module
 // It should have extension .mjs
-// You cannot use CommonJS Syntax (require) in .mjs files
-// You cannot use ES^ Syntax (import) in Normal Javascript Files
+// You cannot use CommonJS Syntax (require) in .mjs Files
+// You cannot use ES6 Syntax (import) in Normal Javascript Files
