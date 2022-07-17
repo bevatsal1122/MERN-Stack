@@ -7,7 +7,7 @@ let obj = {
     developer: true
 }
 let plate = {
-    name: "Amisha",
+    name: "Shraddha",
     favNum: 1,
     developer: false
 }
