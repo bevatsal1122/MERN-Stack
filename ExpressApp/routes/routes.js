@@ -22,7 +22,7 @@ router.get('/download', (req, res) => {
     res.download(path.join(__dirname, '../app.js'))
 })
 
-// router.get('/api/products', [apiKeyCheck0, apiKeyCheck1], (req, res) for Muliple Middlewares for a Single Route
+// router.get('/api/products', [apiKeyCheck0, apiKeyCheck1], (req, res) => {}) for Muliple Middlewares for a Single Route
 router.get('/api/products', apiKeyCheck, (req, res) => {
     res.json([
         {
