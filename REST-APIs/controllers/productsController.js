@@ -30,7 +30,7 @@ const productsController = {
             const { error } = productFormat.validate(req.body);
 
             if (error) {
-                fs.unlink(path.join(path.join(appRoot, filePath)), (error2) => {
+                fs.unlink(path.join(appRoot, filePath), (error2) => {
                     if (error2) {
                         return next(CustomErrorHandler.serverError());
                     }
